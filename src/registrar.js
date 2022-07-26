@@ -96,6 +96,7 @@ class Registrar {
     this.topologies.set(id, topology)
 
     // Set registrar
+    // @ts-ignore
     topology.registrar = this
 
     return id

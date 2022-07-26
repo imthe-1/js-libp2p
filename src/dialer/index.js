@@ -9,7 +9,6 @@ const { Multiaddr } = require('multiaddr')
 const { TimeoutController } = require('timeout-abort-controller')
 const { AbortError } = require('abortable-iterator')
 const { anySignal } = require('any-signal')
-// @ts-expect-error setMaxListeners is missing from the types
 const { setMaxListeners } = require('events')
 const DialRequest = require('./dial-request')
 const { publicAddressesFirst } = require('libp2p-utils/src/address-sort')

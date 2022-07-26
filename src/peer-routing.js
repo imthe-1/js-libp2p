@@ -21,10 +21,9 @@ const filter = require('it-filter')
 const {
   setDelayedInterval,
   clearDelayedInterval
-// @ts-ignore module with no types
+  // @ts-ignore module with no types
 } = require('set-delayed-interval')
 const { DHTPeerRouting } = require('./dht/dht-peer-routing')
-// @ts-expect-error setMaxListeners is missing from the types
 const { setMaxListeners } = require('events')
 
 /**
