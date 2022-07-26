@@ -5,7 +5,6 @@ const { anySignal } = require('any-signal')
 // @ts-ignore p-fifo does not export types
 const FIFO = require('p-fifo')
 const pAny = require('p-any')
-// @ts-expect-error setMaxListeners is missing from the types
 const { setMaxListeners } = require('events')
 const { codes } = require('../errors')
 
