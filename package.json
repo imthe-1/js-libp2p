@@ -1,6 +1,6 @@
 {
-  "name": "libp2p",
-  "version": "0.33.0",
+  "name": "@mdip/libp2p",
+  "version": "0.1.0",
   "description": "JavaScript implementation of libp2p, a modular peer to peer network stack",
   "leadMaintainer": "Jacob Heun <jacobheun@gmail.com>",
   "main": "src/index.js",
@@ -49,7 +49,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/libp2p/js-libp2p.git"
+    "url": "https://github.com/imthe-1/js-libp2p.git"
   },
   "keywords": [
     "libp2p",
@@ -60,9 +60,9 @@
     "IPFS"
   ],
   "bugs": {
-    "url": "https://github.com/libp2p/js-libp2p/issues"
+    "url": "https://github.com/imthe-1/js-libp2p/issues"
   },
-  "homepage": "https://libp2p.io",
+  "homepage": "https://www.keychain.org/",
   "license": "MIT",
   "engines": {
     "node": ">=14.0.0"
@@ -79,6 +79,7 @@
   },
   "dependencies": {
     "abortable-iterator": "^3.0.0",
+    "@mdip/libp2p-crypto": "^0.1.0",
     "@motrix/nat-api": "^0.3.1",
     "@vascosantos/moving-average": "^1.1.0",
     "abort-controller": "^3.0.0",
@@ -103,7 +104,6 @@
     "it-merge": "^1.0.0",
     "it-pipe": "^1.1.0",
     "it-take": "^1.0.0",
-    "libp2p-crypto": "^0.19.4",
     "libp2p-interfaces": "^1.0.0",
     "libp2p-utils": "^0.4.0",
     "mafmt": "^10.0.0",

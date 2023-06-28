@@ -7,7 +7,7 @@ const defer = require('p-defer')
 const mergeOptions = require('merge-options')
 
 const Bootstrap = require('libp2p-bootstrap')
-const crypto = require('libp2p-crypto')
+const crypto = require('@mdip/libp2p-crypto')
 const KadDht = require('libp2p-kad-dht')
 const MulticastDNS = require('libp2p-mdns')
 const { Multiaddr } = require('multiaddr')

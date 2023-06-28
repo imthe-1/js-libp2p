@@ -1,6 +1,6 @@
 'use strict'
 
-const crypto = require('libp2p-crypto')
+const crypto = require('@mdip/libp2p-crypto')
 const constants = require('./constants')
 
 /**

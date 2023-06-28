@@ -1,6 +1,6 @@
 'use strict'
 
-const crypto = require('libp2p-crypto')
+const crypto = require('@mdip/libp2p-crypto')
 const KEY_LENGTH = 32
 const { toString: uint8ArrayToString } = require('uint8arrays/to-string')
 const { fromString: uint8ArrayFromString } = require('uint8arrays/from-string')

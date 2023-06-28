@@ -6,7 +6,7 @@ const log = Object.assign(debug('libp2p:keychain'), {
 })
 const sanitize = require('sanitize-filename')
 const mergeOptions = require('merge-options')
-const crypto = require('libp2p-crypto')
+const crypto = require('@mdip/libp2p-crypto')
 const { Key } = require('interface-datastore/key')
 const CMS = require('./cms')
 const errcode = require('err-code')

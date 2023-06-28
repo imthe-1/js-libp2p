@@ -6,7 +6,7 @@ const sinon = require('sinon')
 
 const { EventEmitter } = require('events')
 
-const { randomBytes } = require('libp2p-crypto')
+const { randomBytes } = require('@mdip/libp2p-crypto')
 const duplexPair = require('it-pair/duplex')
 const pipe = require('it-pipe')
 const concat = require('it-concat')

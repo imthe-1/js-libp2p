@@ -13,7 +13,7 @@ const { Key } = require('interface-datastore/key')
 const { MemoryDatastore } = require('datastore-core/memory')
 const Keychain = require('../../src/keychain')
 const PeerId = require('peer-id')
-const crypto = require('libp2p-crypto')
+const crypto = require('@mdip/libp2p-crypto')
 
 describe('keychain', () => {
   const passPhrase = 'this is not a secure phrase'

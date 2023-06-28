@@ -4,7 +4,7 @@
 const { expect } = require('aegir/utils/chai')
 const sinon = require('sinon')
 
-const { randomBytes } = require('libp2p-crypto')
+const { randomBytes } = require('@mdip/libp2p-crypto')
 const pipe = require('it-pipe')
 const concat = require('it-concat')
 const delay = require('delay')

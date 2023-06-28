@@ -8,7 +8,7 @@ const { pipe } = require('it-pipe')
 const errcode = require('err-code')
 // @ts-ignore it-pair has no types exported
 const duplexPair = require('it-pair/duplex')
-const crypto = require('libp2p-crypto')
+const crypto = require('@mdip/libp2p-crypto')
 const Errors = require('./errors')
 const {
   codes: { ERR_INVALID_PARAMETERS }

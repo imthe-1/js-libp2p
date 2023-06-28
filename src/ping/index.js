@@ -6,7 +6,7 @@ const log = Object.assign(debug('libp2p:ping'), {
 })
 const errCode = require('err-code')
 
-const crypto = require('libp2p-crypto')
+const crypto = require('@mdip/libp2p-crypto')
 const { pipe } = require('it-pipe')
 // @ts-ignore it-buffer has no types exported
 const { toBuffer } = require('it-buffer')

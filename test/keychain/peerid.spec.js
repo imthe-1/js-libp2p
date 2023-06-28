@@ -4,7 +4,7 @@
 const { expect } = require('aegir/utils/chai')
 const PeerId = require('peer-id')
 const { base58btc } = require('multiformats/bases/base58')
-const crypto = require('libp2p-crypto')
+const crypto = require('@mdip/libp2p-crypto')
 const rsaUtils = require('libp2p-crypto/src/keys/rsa-utils')
 const rsaClass = require('libp2p-crypto/src/keys/rsa-class')
 const { fromString: uint8ArrayFromString } = require('uint8arrays/from-string')
